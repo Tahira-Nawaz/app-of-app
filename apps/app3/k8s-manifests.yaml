@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-user/git-repo.git'
+    repoURL: 'https://github.com/Tahira-Nawaz/ArgoCD-App.git'
     targetRevision: HEAD
-    path: apps/app1
+    path: k8s/prod
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: app1-namespace
+    namespace: app3-nginx
   syncPolicy:
     automated:
       prune: true

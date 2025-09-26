@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: k8s/staging
   destination:
-    server: 'https://kubernetes.default.svc'
+    server: 'cluster2'
     namespace: app2-wordpress
   syncPolicy:
     automated:

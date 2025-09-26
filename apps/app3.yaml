@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: k8s/test
   destination:
-    server: 'cluster2'
+    server: 'https://172.31.128.18:6443'
     namespace: app3-nginx
   syncPolicy:
     automated:

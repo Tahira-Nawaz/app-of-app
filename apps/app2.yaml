@@ -10,7 +10,7 @@ spec:
     targetRevision: HEAD
     path: k8s/staging
   destination:
-    server: 'https://172.31.128.18:6443'
+    server: 'https://172.31.128.48:6443'
     namespace: app2-wordpress
   syncPolicy:
     automated:

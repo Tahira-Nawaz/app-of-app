@@ -13,6 +13,8 @@ spec:
     server: 'https://172.31.128.51:6443'
     namespace: app1-php
   syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
     automated:
       prune: true
       selfHeal: true

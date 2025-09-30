@@ -13,6 +13,8 @@ spec:
     server: 'https://172.31.128.48:6443'
     namespace: app2-wordpress
   syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
     automated:
       prune: true
       selfHeal: true
